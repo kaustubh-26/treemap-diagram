@@ -1,0 +1,23 @@
+#title {
+    @apply mt-6 mb-3 text-3xl font-bold;
+}
+
+#description {
+    @apply my-2;
+}
+
+.tile text tspan {
+    @apply break-words;
+}
+
+#map-container {
+    @apply flex flex-col justify-center items-center;
+}
+
+#legend {
+    @apply h-[200px] w-[500px] m-auto
+}
+
+#tooltip {
+    @apply absolute p-4 bg-lime-200;
+}
